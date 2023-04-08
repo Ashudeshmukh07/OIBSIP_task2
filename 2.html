@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>My Portfolio</title>
+	<link rel="stylesheet" href="style2.css">
+</head>
+<body>
+	<header>
+		<h1>Portfolio</h1>
+		<nav>
+			<ul>
+				<li><a href="#">Home</a></li>
+				<li><a href="#about">About</a></li>
+				<li><a href="#banner">Skills</a></li>
+				<li><a href="#project">Project</a></li>
+				<li><a href="#contact">Contact</a></li>
+			</ul>
+		</nav>
+	</header>
+
+	<main>
+		<section id="about">
+			<h2>About Me</h2>
+			<p>My name is Ashutosh Deshmukh, I'am engineering student studying at SPPU.<br> I have keen intrests in Artificial Intelligence, Machine learning, web development also Iam familiar with languages like C++, Python, HTML, CSS, JS</p>
+			<img class="img" src="pp.png.png" alt="My Profile Picture">
+			<div id="banner">
+				<h2>My skill Stack</h2>
+				<div class="inline-block">
+					<img class="cpp" src ="cpp.png">
+				</div>
+			
+				<div class="inline-block">
+					<img class="html" src ="html.png">
+				</div>
+			
+				<div class="inline-block">
+					<img class="css" src ="css.png">
+				</div>
+
+				<div class="inline-block">
+					<img class="js" src ="js.png">
+				</div>
+
+				<div class="inline-block">
+					<img class="py" src ="py.png">
+				</div>
+
+				<div class="inline-block">
+					<img class="tf" src ="tf.png">
+				</div>
+
+				<div class="inline-block">
+					<img class="sk" src ="sk.png">
+				</div>
+			</div>
+			
+		</section>
+
+		<section id="project">
+			<h2>My Projects</h2>
+			<div class="project">
+				<img src="img1.jpg" alt="Project 1">
+				<h3>Project 1</h3>
+				<h2>Airline reservation system </h2>
+				<p>Built an airline reservation system with html css javascript and used myapache server in the backend, <br>
+					Is consisted login for user as well as admin can book flight of diffrent airlines  </p>
+				<a href="#">View Project</a>
+			</div>
+			<div class="project">
+				<img class="p2" src="img2.png" alt="Project 2">
+				<h3>Project 2</h3>
+				<h2>Landing page</h2>
+				<p>Built a community landing page named capturers <br>
+				Capturers is a community of photographers which allows photographers to share their work.</p>
+				<a href="#">View Project</a>
+			</div>
+			<div class="project">
+				<img class="pp2" src="p3.png" alt="Project 3">
+				<h3>Project 3</h3>
+				<h2>Temperature converter</h2>
+				<p>Can convert Temperature from celsius to farhenheit to kelvin</p>
+				<a href="#">View Project</a>
+			</div>
+		</section>
+		<section id="contact">
+			<h2>Contact Me</h2>
+			<form action="submit.php" method="post">
+				<label for="name">Name:</label>
+				<input type="text" id="name" name="name" required>
+				<label for="email">Email:</label>
+				<input type="email" id="email" name="email" required>
+				<label for="message">Message:</label>
+				<textarea id="message" name="message" required></textarea>
+				<input type="submit" value="Send">
+			</form>
+		</section>
+	</main>
+
+	<footer>
+		<p>&copy; 2023 Ashutosh Deshmukh - My Portfolio. All rights reserved.</p>
+	</footer>
+</body>
+</html>
